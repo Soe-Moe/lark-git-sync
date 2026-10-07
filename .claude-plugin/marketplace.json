@@ -1,0 +1,13 @@
+{
+  "name": "lark-git-sync",
+  "owner": {
+    "name": "Skylar"
+  },
+  "plugins": [
+    {
+      "name": "lark-git-sync",
+      "source": "./",
+      "description": "Sync git commits into a Lark Base table as feature-grouped tasks and subtasks."
+    }
+  ]
+}
