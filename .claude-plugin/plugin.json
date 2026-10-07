@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Sync a repo's git commits for a week, month or custom range into a Lark Base table as feature-grouped tasks and subtasks, via the Lark MCP server.",
   "author": {
-    "name": "Skylar"
+    "name": "Soe Moe Oo @Skylar"
   },
   "license": "MIT",
   "keywords": ["lark", "feishu", "bitable", "git", "changelog", "tasks"]
