@@ -1,7 +1,7 @@
 {
   "name": "lark-git-sync",
   "version": "1.0.0",
-  "description": "Sync a repo's git commits for a week, month or custom range into a Lark Base table as feature-grouped tasks and subtasks, via the Lark MCP server.",
+  "description": "Turn a repo's git commits for this week, last week, this month, last month, a custom date range or everything since the last sync into task records in a Lark Base (Bitable) table. Commits are grouped into feature tasks by ticket key, conventional-commit scope and module, and multi-part work (DB, API, UI) is split into linked subtasks. Vague messages like \"fix\" or \"wip\" are rewritten from the changed files, CHANGELOG.md and a bounded diff. Commits already synced are skipped by SHA, and nothing is written to Lark until you approve a preview. Requires the official Lark MCP server.",
   "author": {
     "name": "Soe Moe Oo @Skylar"
   },

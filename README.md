@@ -16,12 +16,30 @@ A Claude Code skill that turns a repository's git history for a week, month or c
 
 ## Install
 
-**As a plugin (recommended)**
+**From the Anthropic plugin directory (recommended)**
+
+In Claude Code, run:
 
 ```
-/plugin marketplace add <your-github-user>/lark-git-sync
+/plugin install lark-git-sync@claude-plugins-official
+```
+
+Or open `/plugin`, go to the **Discover** tab, search for `lark-git-sync` and pick **Install**. If it doesn't show up, refresh the directory first with `/plugin marketplace update claude-plugins-official`.
+
+From a terminal outside Claude Code:
+
+```bash
+claude plugin install lark-git-sync@claude-plugins-official
+```
+
+**From this GitHub repo**
+
+```
+/plugin marketplace add Soe-Moe/lark-git-sync
 /plugin install lark-git-sync@lark-git-sync
 ```
+
+After installing, restart Claude Code or run `/reload-plugins` so the skill loads. To get new versions later, run `/plugin marketplace update` and then `/plugin update lark-git-sync`. To remove it, run `/plugin uninstall lark-git-sync`.
 
 **Or copy the skill manually**
 
