@@ -1,5 +1,7 @@
 # lark-git-sync
 
+[![M8ven Score](https://m8ven.ai/badge/mcp/soe-moe-lark-git-sync-1nqvbf?v=3023b6323ff790092a51761a1b7b454b)](https://m8ven.ai/mcp/soe-moe-lark-git-sync-1nqvbf?s=readme)
+
 A Claude Code skill that turns a repository's git history for a week, month or custom date range into clear, feature-level task records in a **Lark Base (Bitable)** table, with **subtasks** where the work naturally splits.
 
 - Collects commits for `this-week`, `last-week`, `this-month`, `last-month`, a custom `YYYY-MM-DD..YYYY-MM-DD`, or `since-last-sync`
